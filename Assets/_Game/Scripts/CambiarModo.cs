@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Rendering;
-using UnityEngine.Rendering.Universal;
 public class CambiarModo : MonoBehaviour
 {
     public Animator animCasco;
@@ -14,6 +12,9 @@ public class CambiarModo : MonoBehaviour
 
     public int modoDaltonismo;
     public static CambiarModo singleton;
+
+    public UnityEvent eventoAbreCasco;
+    public UnityEvent eventoCierraCasco;
 
 	private void Awake()
 	{
@@ -29,5 +30,13 @@ public class CambiarModo : MonoBehaviour
     void CambioColor()
 	{
         volumen.profile = ((abierto) ? noDalto : siDalto);
+		if (abierto)
+		{
+            eventoAbreCasco.Invoke();
+		}
+		else
+		{
+            eventoCierraCasco.Invoke();
+		}
 	}
 }

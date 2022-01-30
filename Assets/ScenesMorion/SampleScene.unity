@@ -2914,6 +2914,12 @@ MonoBehaviour:
   siDalto: {fileID: 11400000, guid: 99e2d8d38338fc94fa10a991b630fba2, type: 2}
   noDalto: {fileID: 11400000, guid: ec0495a720f72d34cb08f7312bf09743, type: 2}
   modoDaltonismo: 2
+  eventoAbreCasco:
+    m_PersistentCalls:
+      m_Calls: []
+  eventoCierraCasco:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1427951161 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3570c39c655089b4db22e4cdd2481fef, type: 3}
@@ -2971,7 +2977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5f9725cf6acccd4cab246b4c6d40297, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.147
+      value: 0.217
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5f9725cf6acccd4cab246b4c6d40297, type: 3}
       propertyPath: m_LocalRotation.w
