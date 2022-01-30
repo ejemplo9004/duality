@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 916ae67460a42344aa4c085418de2147
+guid: ac4735af1d2e53b4f9ddf112d4a34859
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,18 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MaterialPared9
-    second: {fileID: 2100000, guid: 020c896aa26a41b438801cb9c54641da, type: 2}
+      name: MaterialRuleta
+    second: {fileID: 2100000, guid: 65140de804e4fbd4db42ada35de4de63, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Multimaterial001
-    second: {fileID: 2100000, guid: f3876b7d5a094704495a0a3e10d6f044, type: 2}
+      name: DifusoRuleta.001
+    second: {fileID: 2800000, guid: ce4478ae07108184e812e1ed974c10b6, type: 3}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: pisoyprops.011
-    second: {fileID: 2100000, guid: d45950fc03d2b254ebaa05d46e2a0d20, type: 2}
+      name: EmisorRuleta.001
+    second: {fileID: 2800000, guid: 82533edcce7981644ab76b8ef525c05d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MetalRuleta.001
+    second: {fileID: 2800000, guid: 075e4b203aa24de42966d35986b4ab9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NormalRuleta.001
+    second: {fileID: 2800000, guid: c4b12b7ce8e50634e8984f6e726a68ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RugosoRuleta.001
+    second: {fileID: 2800000, guid: c779d09b4143ac242b6196b65eb83430, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -51,7 +66,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
@@ -60,7 +75,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

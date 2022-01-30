@@ -1,13 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
 namespace SOHNE.Accessibility.Colorblindness
 {
     public class CambiarModo : MonoBehaviour
     {
         public Animator animCasco;
         public bool abierto;
-        public Colorblindness colorizacion;
+        //public Colorblindness colorizacion;
+        public Volume volumen;
+        public VolumeProfile siDalto;
+        public VolumeProfile noDalto;
 
         public int modoDaltonismo;
         public static CambiarModo singleton;
@@ -25,7 +31,7 @@ namespace SOHNE.Accessibility.Colorblindness
 
         void CambioColor()
 		{
-            colorizacion.Change((abierto) ? 0 : modoDaltonismo);
+            volumen.profile = ((abierto) ? noDalto : siDalto);
 		}
     }
 }
