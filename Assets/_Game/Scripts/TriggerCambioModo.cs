@@ -10,7 +10,7 @@ public class TriggerCambioModo : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			CambiarModo.singleton.Cambiar();
-			animator.SetTrigger("");
+			animator.SetTrigger("boton");
 		}
 	}
 }
