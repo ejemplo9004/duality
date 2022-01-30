@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SOHNE.Accessibility.Colorblindness
+public class TriggerCambioModo : MonoBehaviour
 {
-    public class TriggerCambioModo : MonoBehaviour
-    {
-		private void OnTriggerEnter(Collider other)
+	public Animator animator;
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.CompareTag("Player"))
 		{
-			if (other.CompareTag("Player"))
-			{
-				CambiarModo.singleton.Cambiar();
-			}
+			CambiarModo.singleton.Cambiar();
+			animator.SetTrigger("");
 		}
 	}
 }
