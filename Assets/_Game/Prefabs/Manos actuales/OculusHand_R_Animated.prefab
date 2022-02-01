@@ -1864,6 +1864,7 @@ Transform:
   m_Children:
   - {fileID: 4345647571041785468}
   - {fileID: 4318097630027803724}
+  - {fileID: 2698944697230364021}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2822,3 +2823,65 @@ Transform:
   m_Father: {fileID: 9154325621771675324}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2521499684240517790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4683183016025507554}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1018
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0039
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0106
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9871957
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15951402
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+      propertyPath: m_Name
+      value: BrazaleteVida
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+--- !u!4 &2698944697230364021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bb447a4348eb8d74db887ba61562e216, type: 3}
+  m_PrefabInstance: {fileID: 2521499684240517790}
+  m_PrefabAsset: {fileID: 0}

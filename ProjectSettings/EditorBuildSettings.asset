@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ScenesMorion/Patron.unity
     guid: d241d3f31d43e764c8fc3dd90fdb430a
-  - enabled: 1
+  - enabled: 0
     path: Assets/ScenesInquernon/Ruleta.unity
     guid: e06d07a24d36e4047b49b1190a6984c5
+  - enabled: 1
+    path: Assets/ScenesInquernon/Laboratorio.unity
+    guid: 9706a4750c876974090f8ec714bd9078
   - enabled: 0
     path: Assets/ScenesMorion/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640

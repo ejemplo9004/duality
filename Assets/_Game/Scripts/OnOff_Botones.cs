@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class OnOff_Botones : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class OnOff_Botones : MonoBehaviour
     public Material materialOn;
     public Material materialOff;
     public bool prendido = false;
+    public UnityEvent eventoPresionar;
 
     private Renderer miRenderer;
     // Start is called before the first frame update
@@ -32,6 +34,7 @@ public class OnOff_Botones : MonoBehaviour
                 prendido = false;
             }
             PuzzlePatron.singleton.Revisar();
+            eventoPresionar.Invoke();
         }
         
     }

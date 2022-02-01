@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c6ab7ac7d89b6f34cad0aa7f096498d2
+guid: 25647f55db0c55a4aa8a20f5ec88c3e5
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MaterialPared13
-    second: {fileID: 2100000, guid: 7e67e1725b3293e418f64ac2798a5b23, type: 2}
+      name: Contenedor
+    second: {fileID: 2100000, guid: e7b656cb22e78e74b902b1a880d26ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal
+    second: {fileID: 2100000, guid: 4fb73e3c3564a624994278ebab7e1ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand
+    second: {fileID: 2100000, guid: e48093ab5913782469bbf4704129ccaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Liquido
+    second: {fileID: 2100000, guid: dde59ebba94835446848dfa1a09d8b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaterialPared2
+    second: {fileID: 2100000, guid: 7254eafb95219e04bb862912fc3aa6a2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -17,8 +37,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Paneldecontrol
-    second: {fileID: 2100000, guid: d0badbc48654cac41b2e47f7d1c8163c, type: 2}
+      name: pisoyprops.002
+    second: {fileID: 2100000, guid: d45950fc03d2b254ebaa05d46e2a0d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pisoyprops.009
+    second: {fileID: 2100000, guid: d45950fc03d2b254ebaa05d46e2a0d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pisoyprops.011
+    second: {fileID: 2100000, guid: d45950fc03d2b254ebaa05d46e2a0d20, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -51,7 +81,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
@@ -59,7 +89,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     fileIdsGeneration: 2
-    swapUVChannels: 0
+    swapUVChannels: 1
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0

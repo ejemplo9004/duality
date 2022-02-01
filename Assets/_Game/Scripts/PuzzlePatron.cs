@@ -24,7 +24,8 @@ public class PuzzlePatron : MonoBehaviour
         patronUsuario = texto;
 		if (patronReal.Equals(patronUsuario))
 		{
-            print("Ganó");
+            Application.Quit();
+            UnityEngine.SceneManagement.SceneManager.LoadScene("vacio");
 		}
 	}
 

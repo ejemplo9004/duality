@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MovimientoMecanica : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class MovimientoMecanica : MonoBehaviour
     public int numFaces, indexPosition, multiplicador=1;
     public float anguloInicial, anguloEntrada;
     public Transform mirarMano, proyectado, rotado, laBolita, hijo;
+    public UnityEvent eventoGirarLetra;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,7 @@ public class MovimientoMecanica : MonoBehaviour
             indexPosition = (indexPosition + 1) % numFaces;
             transform.localEulerAngles = Vector3.right * indexPosition * (360f / (float)numFaces);
             anguloInicial = transform.localEulerAngles.x;
+            eventoGirarLetra.Invoke();
         }
     }
     private void OnTriggerStay(Collider other)
