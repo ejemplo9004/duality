@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 109434732388006827}
   - component: {fileID: 6130614672481774399}
   m_Layer: 0
-  m_Name: Left Hand Model
+  m_Name: Left Hand Model 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -422,6 +422,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

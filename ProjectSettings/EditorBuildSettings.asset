@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/ScenesMorion/Patron.unity
+    guid: d241d3f31d43e764c8fc3dd90fdb430a
   - enabled: 1
     path: Assets/ScenesInquernon/Ruleta.unity
     guid: e06d07a24d36e4047b49b1190a6984c5

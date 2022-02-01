@@ -12,6 +12,7 @@ public class MovimientoMecanica : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hijo.parent = null;
       /*  mirarMano = new GameObject().transform;
         mirarMano.parent = transform.parent;
         mirarMano.position = transform.position;
@@ -47,7 +48,8 @@ public class MovimientoMecanica : MonoBehaviour
             transform.localEulerAngles = new Vector3(anguloInicial+
                 ((Mathf.Sign(proyectado.position.x - transform.position.x)<0)?180:0)+
                 (Mathf.Sign(proyectado.position.x - transform.position.x))*(Mathf.Asin((proyectado.position.y - transform.position.y)/(proyectado.position - transform.position).magnitude)*Mathf.Rad2Deg),  0, 0);
-          
+
+            hijo.parent = transform;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -55,6 +57,7 @@ public class MovimientoMecanica : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             DetectarAcierto.singleton.CheckAnswer();
+            hijo.parent = null;
         }
     }
     private void CalculateAngle()
