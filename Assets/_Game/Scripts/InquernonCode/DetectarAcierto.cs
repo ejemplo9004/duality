@@ -37,7 +37,7 @@ public class DetectarAcierto : MonoBehaviour
 
     }
     private string EsCorrecto() {
-        Application.Quit();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
         return "es correcto";
     }
 }
