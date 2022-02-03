@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_System: {fileID: 660734163}
   m_TurnSpeed: 60
   m_LeftHandTurnAction:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Left Hand Turn
       m_Type: 0
