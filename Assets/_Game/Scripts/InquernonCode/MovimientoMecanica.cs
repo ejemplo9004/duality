@@ -10,22 +10,24 @@ public class MovimientoMecanica : MonoBehaviour
     public float anguloInicial, anguloEntrada;
     public Transform mirarMano, proyectado, rotado, laBolita, hijo;
     public UnityEvent eventoGirarLetra;
+    public UnityEvent eventoGiraRuleta;
 
+    float grados;
     // Start is called before the first frame update
     void Start()
     {
         //hijo.parent = null;
-      /*  mirarMano = new GameObject().transform;
-        mirarMano.parent = transform.parent;
-        mirarMano.position = transform.position;
-        laBolita = new GameObject().transform;
-        laBolita.parent = mirarMano;
-        laBolita.position = mirarMano.position + mirarMano.forward;
+        /*  mirarMano = new GameObject().transform;
+          mirarMano.parent = transform.parent;
+          mirarMano.position = transform.position;
+          laBolita = new GameObject().transform;
+          laBolita.parent = mirarMano;
+          laBolita.position = mirarMano.position + mirarMano.forward;
 
-        proyectado = new GameObject().transform;
-        proyectado.parent = transform.parent;
-        proyectado.position = transform.position;*/
-
+          proyectado = new GameObject().transform;
+          proyectado.parent = transform.parent;
+          proyectado.position = transform.position;*/
+        grados = transform.localEulerAngles.x;
     }
 
     // Update is called once per frame
@@ -51,7 +53,11 @@ public class MovimientoMecanica : MonoBehaviour
             transform.localEulerAngles = new Vector3(anguloInicial+
                 ((Mathf.Sign(proyectado.position.x - transform.position.x)<0)?180:0)+
                 (Mathf.Sign(proyectado.position.x - transform.position.x))*(Mathf.Asin((proyectado.position.y - transform.position.y)/(proyectado.position - transform.position).magnitude)*Mathf.Rad2Deg),  0, 0);
-
+            if(Mathf.Abs(transform.localEulerAngles.x - grados) > 24)
+			{
+                grados = transform.localEulerAngles.x;
+                eventoGiraRuleta.Invoke();
+			}
             //hijo.parent = transform;
         }
     }
