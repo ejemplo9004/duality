@@ -10,7 +10,10 @@ public class Muerte : MonoBehaviour
     public float estadoInicial;
     public float estadoActual;
     public Transform visual;
-    
+
+    public float actualNormalizado;
+
+
     void Start()
     {
         estadoActual = estadoInicial;
@@ -31,6 +34,9 @@ public class Muerte : MonoBehaviour
     {
 
         estadoActual -= (CambiarModo.singleton.abierto ? velAbierto : velCerrado) * Time.deltaTime;
+        actualNormalizado = estadoActual / estadoInicial;
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Vida", actualNormalizado);
+
         visual.localScale = new Vector3(1, estadoActual / estadoInicial, 1);
 		if (estadoActual<=0)
 		{
