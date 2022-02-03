@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cfc04c03-3d08-46c5-bbcb-0af8220f8835}">
+		<property name="assetPath">
+			<value>ahogado 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7893424036281171</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8b81ffd8-a151-445d-9c23-60c4519355d8}</destination>
+		</relationship>
+	</object>
+</objects>

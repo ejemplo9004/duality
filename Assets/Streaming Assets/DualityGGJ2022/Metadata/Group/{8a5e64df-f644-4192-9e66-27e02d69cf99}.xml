@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{8a5e64df-f644-4192-9e66-27e02d69cf99}">
+		<property name="name">
+			<value>FX Jugador</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f790af2e-a2cd-48e6-a55f-9327b9576ca4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{48fb1b8c-2f2e-49ea-942d-7e3f051cce62}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{21bc5a22-e5a4-4004-be39-65f9e47fece3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f790af2e-a2cd-48e6-a55f-9327b9576ca4}">
+		<relationship name="effects">
+			<destination>{fe0c7440-695a-4766-8462-b42fcaf8ae5a}</destination>
+			<destination>{180fa9ad-803e-4008-acf4-16e095400101}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{48fb1b8c-2f2e-49ea-942d-7e3f051cce62}" />
+	<object class="LimiterEffect" id="{fe0c7440-695a-4766-8462-b42fcaf8ae5a}">
+		<property name="ceiling">
+			<value>-2.20000005</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{180fa9ad-803e-4008-acf4-16e095400101}" />
+</objects>

@@ -320,6 +320,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8028266671268924425, guid: 6861d0bf4afe1634dbc41ce82808bc4f, type: 3}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028266671268924428, guid: 6861d0bf4afe1634dbc41ce82808bc4f, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6861d0bf4afe1634dbc41ce82808bc4f, type: 3}
 --- !u!1 &280479847
@@ -786,6 +794,81 @@ LightProbeGroup:
   - {x: -2.8267531, y: -1, z: 5.904128}
   - {x: -2.5016727, y: -1, z: 1.9708335}
   m_Dering: 1
+--- !u!65 &630460252
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630460254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.17, y: 2.39, z: 4.01}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &630460253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630460254}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.84, y: 1.54, z: 4.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &630460254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630460253}
+  - component: {fileID: 630460252}
+  - component: {fileID: 630460255}
+  m_Layer: 0
+  m_Name: TriggerAccent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &630460255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630460254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: GameController
+  EventReference:
+    Guid:
+      Data1: 1901967367
+      Data2: 1283375439
+      Data3: 1723580821
+      Data4: -722656170
+    Path: event:/Ambientes/entrada laboratorio
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2287,6 +2370,7 @@ GameObject:
   - component: {fileID: 626670084149644173}
   - component: {fileID: 3512742124201755052}
   - component: {fileID: 1815943727242463058}
+  - component: {fileID: 659563917449922632}
   m_Layer: 0
   m_Name: Contenedor2.001
   m_TagString: Untagged
@@ -2294,6 +2378,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &659563917449922632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659563917449922631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 152160623
+      Data2: 1319207794
+      Data3: 639764138
+      Data4: -1488833151
+    Path: event:/Objetos/Embases Experimento
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &676251544995067957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,6 +3478,7 @@ GameObject:
   - component: {fileID: 2432826191918108774}
   - component: {fileID: 9082975046063383300}
   - component: {fileID: 6748120501301902052}
+  - component: {fileID: 2261099821651747261}
   m_Layer: 0
   m_Name: Contenedor3.001
   m_TagString: Untagged
@@ -3371,6 +3486,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &2261099821651747261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261099821651747260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 152160623
+      Data2: 1319207794
+      Data3: 639764138
+      Data4: -1488833151
+    Path: event:/Objetos/Embases Experimento
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!33 &2369837508973289569
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4066,6 +4211,7 @@ GameObject:
   - component: {fileID: 3806855125685649718}
   - component: {fileID: 1703539760281371817}
   - component: {fileID: 7058473053425596968}
+  - component: {fileID: 4134538439812814150}
   m_Layer: 0
   m_Name: Contenedor3
   m_TagString: Untagged
@@ -4073,6 +4219,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &4134538439812814150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4134538439812814149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 152160623
+      Data2: 1319207794
+      Data3: 639764138
+      Data4: -1488833151
+    Path: event:/Objetos/Embases Experimento
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4145497297404188492
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,6 +4261,7 @@ GameObject:
   - component: {fileID: 1483887614288908574}
   - component: {fileID: 6432301042228382129}
   - component: {fileID: 8212453359474695659}
+  - component: {fileID: 4145497297404188493}
   m_Layer: 0
   m_Name: Contenedor
   m_TagString: Untagged
@@ -4092,6 +4269,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &4145497297404188493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145497297404188492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 152160623
+      Data2: 1319207794
+      Data3: 639764138
+      Data4: -1488833151
+    Path: event:/Objetos/Embases Experimento
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!33 &4158752004165944861
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5061,6 +5268,7 @@ GameObject:
   - component: {fileID: 4108835366167827219}
   - component: {fileID: 1231910437862800614}
   - component: {fileID: 6401048618742134052}
+  - component: {fileID: 5876990156043703761}
   m_Layer: 0
   m_Name: Contenedor.001
   m_TagString: Untagged
@@ -5068,6 +5276,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &5876990156043703761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5876990156043703760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 152160623
+      Data2: 1319207794
+      Data3: 639764138
+      Data4: -1488833151
+    Path: event:/Objetos/Embases Experimento
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!33 &5898958501690633511
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5634,6 +5872,7 @@ GameObject:
   - component: {fileID: 5538918672427331007}
   - component: {fileID: 3766960098303390909}
   - component: {fileID: 1259153790653653519}
+  - component: {fileID: 6829222439540348869}
   m_Layer: 0
   m_Name: Contenedor2
   m_TagString: Untagged
@@ -5641,6 +5880,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &6829222439540348869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829222439540348868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 152160623
+      Data2: 1319207794
+      Data3: 639764138
+      Data4: -1488833151
+    Path: event:/Objetos/Embases Experimento
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!64 &6860537143595328257
 MeshCollider:
   m_ObjectHideFlags: 0
