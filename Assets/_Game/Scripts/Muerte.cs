@@ -32,7 +32,7 @@ public class Muerte : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+         
         estadoActual -= (CambiarModo.singleton.abierto ? velAbierto : velCerrado) * Time.deltaTime;
         actualNormalizado = estadoActual / estadoInicial;
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Vida", actualNormalizado);
