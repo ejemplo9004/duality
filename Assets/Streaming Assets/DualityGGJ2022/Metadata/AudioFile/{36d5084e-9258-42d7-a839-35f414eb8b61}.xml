@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{36d5084e-9258-42d7-a839-35f414eb8b61}">
+		<property name="assetPath">
+			<value>RefrigeratorCompres 6097_61.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>61.333333333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8b81ffd8-a151-445d-9c23-60c4519355d8}</destination>
+		</relationship>
+	</object>
+</objects>
