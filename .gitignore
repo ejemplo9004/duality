@@ -90,3 +90,5 @@ crashlytics-build.properties
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
 
 Assets/Streaming Assets/DualityGGJ2022/Metadata/Event/
+
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
