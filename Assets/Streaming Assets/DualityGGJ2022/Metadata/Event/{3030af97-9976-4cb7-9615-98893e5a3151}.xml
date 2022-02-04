@@ -206,9 +206,6 @@
 		<property name="length">
 			<value>2</value>
 		</property>
-		<relationship name="commandTarget">
-			<destination>{a253eb81-2338-4b20-a240-2604a95b2822}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{71c47794-4c9c-411d-a2cc-27a1cd743bcc}">
 		<property name="name">
