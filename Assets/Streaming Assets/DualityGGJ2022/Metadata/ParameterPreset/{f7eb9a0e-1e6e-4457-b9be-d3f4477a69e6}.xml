@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f7eb9a0e-1e6e-4457-b9be-d3f4477a69e6}">
+		<property name="name">
+			<value>CascoAbierto</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ac0e1adf-0955-4fc5-9420-fa990326f3cd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{eae91d5f-a0d0-466d-a1dd-4c3838bd525e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{eae91d5f-a0d0-466d-a1dd-4c3838bd525e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.39999997615814209</value>
+		</property>
+	</object>
+</objects>

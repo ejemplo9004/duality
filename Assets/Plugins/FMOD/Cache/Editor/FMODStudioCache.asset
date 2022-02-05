@@ -1,0 +1,949 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8803198491384223524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objetos/Codigo Madera
+  m_EditorClassIdentifier: 
+  Path: event:/Objetos/Codigo Madera
+  Guid:
+    Data1: -2103035075
+    Data2: 1206725785
+    Data3: 1610258085
+    Data4: -2144133286
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 625
+--- !u!114 &-8772089099530783897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambientes/Luces
+  m_EditorClassIdentifier: 
+  Path: event:/Ambientes/Luces
+  Guid:
+    Data1: -453307931
+    Data2: 1111194955
+    Data3: -1582956897
+    Data4: -1943139753
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6242147834346977333}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &-8763312778683382627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicaVida/CascoAbierto
+  m_EditorClassIdentifier: 
+  Name: CascoAbierto
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3453892325
+    data2: 231404322
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7976902214706548652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PC correcto
+  m_EditorClassIdentifier: 
+  Name: PC correcto
+  StudioPath: parameter:/PC correcto
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2464353654
+    data2: 72674718
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7912186449751957199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/aire continuo
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/aire continuo
+  Guid:
+    Data1: 828054997
+    Data2: 1116623738
+    Data3: -849322852
+    Data4: 1191944233
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5994
+--- !u!114 &-7795737657511684782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/Cierra casco
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/Cierra casco
+  Guid:
+    Data1: 1535913110
+    Data2: 1213304075
+    Data3: 259015339
+    Data4: 1576127136
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8505760742115136541}
+  - {fileID: -3378855262193405273}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11268
+--- !u!114 &-7770961752173624569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objetos/Embases Experimento
+  m_EditorClassIdentifier: 
+  Path: event:/Objetos/Embases Experimento
+  Guid:
+    Data1: 152160623
+    Data2: 1319207794
+    Data3: 639764138
+    Data4: -1488833151
+  Banks:
+  - {fileID: -7191400518108805513}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4080719748836155056}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
+--- !u!114 &-7191400518108805513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Laboratorio.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Laboratorio.bank
+  Name: Laboratorio
+  StudioPath: bank:/Laboratorio
+  lastModified: 637795292670556770
+  FileSizes:
+  - Name: Desktop
+    Value: 6514944
+  Exists: 1
+--- !u!114 &-6815881020529564721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637795292672477200
+  FileSizes:
+  - Name: Desktop
+    Value: 6398976
+  Exists: 1
+--- !u!114 &-6242147834346977333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Luces/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2228872247
+    data2: 883760071
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5870848825182018084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: parameter:/Vida
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4523856732124117605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objetos/Pc
+  m_EditorClassIdentifier: 
+  Path: event:/Objetos/Pc
+  Guid:
+    Data1: -492432443
+    Data2: 1278812132
+    Data3: 1633354161
+    Data4: -1133722269
+  Banks:
+  - {fileID: -7191400518108805513}
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1266268467410055338}
+  - {fileID: 7890060309143245339}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46496
+--- !u!114 &-4080719748836155056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Embases Experimento/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2228872247
+    data2: 883760071
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3739392802972983837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambientes/entrada laboratorio
+  m_EditorClassIdentifier: 
+  Path: event:/Ambientes/entrada laboratorio
+  Guid:
+    Data1: 1901967367
+    Data2: 1283375439
+    Data3: 1723580821
+    Data4: -722656170
+  Banks:
+  - {fileID: -7191400518108805513}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19626
+--- !u!114 &-3725818412521114671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambientes/entrada sala
+  m_EditorClassIdentifier: 
+  Path: event:/Ambientes/entrada sala
+  Guid:
+    Data1: 982617086
+    Data2: 1260935492
+    Data3: 96328101
+    Data4: -825830981
+  Banks:
+  - {fileID: 6558727759965953298}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20821
+--- !u!114 &-3378855262193405273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cierra casco/CascoAbierto
+  m_EditorClassIdentifier: 
+  Name: CascoAbierto
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3453892325
+    data2: 231404322
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2672893907063540666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambientes/salida lab
+  m_EditorClassIdentifier: 
+  Path: event:/Ambientes/salida lab
+  Guid:
+    Data1: 2109689420
+    Data2: 1185723768
+    Data3: -1567939701
+    Data4: -406497381
+  Banks:
+  - {fileID: -7191400518108805513}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18773
+--- !u!114 &-2605675380371220453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/abre casco/tiemposinrespirar
+  m_EditorClassIdentifier: 
+  Name: tiemposinrespirar
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.46
+  ID:
+    data1: 1909524200
+    data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1784091694722500588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Sotano.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Sotano.bank
+  Name: Sotano
+  StudioPath: bank:/Sotano
+  lastModified: 637795292673062382
+  FileSizes:
+  - Name: Desktop
+    Value: 204736
+  Exists: 1
+--- !u!114 &-1386694254496578085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objetos/Beep Correcto PC
+  m_EditorClassIdentifier: 
+  Path: event:/Objetos/Beep Correcto PC
+  Guid:
+    Data1: -77606153
+    Data2: 1177309698
+    Data3: 2140486548
+    Data4: 972203688
+  Banks:
+  - {fileID: -7191400518108805513}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6675267385244851219}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1088
+--- !u!114 &-346168505292951100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musica/MusicaVida
+  m_EditorClassIdentifier: 
+  Path: event:/Musica/MusicaVida
+  Guid:
+    Data1: -1571558527
+    Data2: 1260397368
+    Data3: 69615778
+    Data4: 573070249
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5423690178261405734}
+  - {fileID: 8808748559097341302}
+  - {fileID: -8763312778683382627}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6735885112797788077}
+  - {fileID: -7191400518108805513}
+  - {fileID: -6815881020529564721}
+  - {fileID: 6558727759965953298}
+  - {fileID: -1784091694722500588}
+  EditorEvents:
+  - {fileID: -3739392802972983837}
+  - {fileID: -2672893907063540666}
+  - {fileID: -7770961752173624569}
+  - {fileID: -4523856732124117605}
+  - {fileID: -1386694254496578085}
+  - {fileID: -3725818412521114671}
+  - {fileID: 5506920407301975444}
+  - {fileID: -8803198491384223524}
+  - {fileID: 6996453589742714553}
+  - {fileID: -7795737657511684782}
+  - {fileID: 6814993429816522943}
+  - {fileID: -7912186449751957199}
+  - {fileID: -8772089099530783897}
+  - {fileID: 1546423799288865771}
+  - {fileID: -346168505292951100}
+  EditorParameters:
+  - {fileID: -5870848825182018084}
+  - {fileID: 863561058451741865}
+  - {fileID: -7976902214706548652}
+  MasterBanks:
+  - {fileID: -6815881020529564721}
+  StringsBanks:
+  - {fileID: 6735885112797788077}
+  cacheTime: 637795292673062382
+  cacheVersion: 10
+--- !u!114 &863561058451741865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/tiemposinrespirar
+  m_EditorClassIdentifier: 
+  Name: tiemposinrespirar
+  StudioPath: parameter:/tiemposinrespirar
+  Min: 0
+  Max: 1
+  Default: 0.46
+  ID:
+    data1: 1909524200
+    data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1266268467410055338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pc/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2228872247
+    data2: 883760071
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1546423799288865771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/abre casco
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/abre casco
+  Guid:
+    Data1: -702160389
+    Data2: 1308875527
+    Data3: 1481033882
+    Data4: 286600743
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2605675380371220453}
+  - {fileID: 4045401960727901699}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22000
+--- !u!114 &4045401960727901699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/abre casco/CascoAbierto
+  m_EditorClassIdentifier: 
+  Name: CascoAbierto
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3453892325
+    data2: 231404322
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5423690178261405734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicaVida/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5506920407301975444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambientes/entrada sotano
+  m_EditorClassIdentifier: 
+  Path: event:/Ambientes/entrada sotano
+  Guid:
+    Data1: 1996202299
+    Data2: 1158725328
+    Data3: -838002753
+    Data4: -2068543611
+  Banks:
+  - {fileID: -1784091694722500588}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16128
+--- !u!114 &6234651701938570767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Musica/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6558727759965953298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Sala.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Sala.bank
+  Name: Sala
+  StudioPath: bank:/Sala
+  lastModified: 637795292672872351
+  FileSizes:
+  - Name: Desktop
+    Value: 262528
+  Exists: 1
+--- !u!114 &6675267385244851219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Beep Correcto PC/PC correcto
+  m_EditorClassIdentifier: 
+  Name: PC correcto
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2464353654
+    data2: 72674718
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6735885112797788077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637795292672522354
+  FileSizes:
+  - Name: Desktop
+    Value: 2030
+  Exists: 1
+--- !u!114 &6814993429816522943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musica/Musica
+  m_EditorClassIdentifier: 
+  Path: event:/Musica/Musica
+  Guid:
+    Data1: 808497047
+    Data2: 1287100790
+    Data3: -1986521706
+    Data4: 1362188862
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6234651701938570767}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36500
+--- !u!114 &6996453589742714553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objetos/Ruleta
+  m_EditorClassIdentifier: 
+  Path: event:/Objetos/Ruleta
+  Guid:
+    Data1: -1128174250
+    Data2: 1176557190
+    Data3: 1141226626
+    Data4: -127824388
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 312
+--- !u!114 &7890060309143245339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pc/PC correcto
+  m_EditorClassIdentifier: 
+  Name: PC correcto
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2464353654
+    data2: 72674718
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8505760742115136541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cierra casco/tiemposinrespirar
+  m_EditorClassIdentifier: 
+  Name: tiemposinrespirar
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.46
+  ID:
+    data1: 1909524200
+    data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8808748559097341302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicaVida/tiemposinrespirar
+  m_EditorClassIdentifier: 
+  Name: tiemposinrespirar
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.46
+  ID:
+    data1: 1909524200
+    data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
