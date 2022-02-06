@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9158366675471174295}
+  - component: {fileID: 1268389599}
   m_Layer: 0
   m_Name: SonidoCasco
   m_TagString: Untagged
@@ -32,6 +33,36 @@ Transform:
   m_Father: {fileID: 6693798934984745903}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268389599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372411295162391862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 326696515
+      Data2: 1329044002
+      Data3: 955912611
+      Data4: 1802655139
+    Path: event:/Jugador/InicioCasco cerrado
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &547635139096237406
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8028266670974494959}
   - component: {fileID: 8028266670974494867}
+  - component: {fileID: 6325404989423125849}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -1166,6 +1198,36 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &6325404989423125849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028266670974494952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1480268168
+      Data2: 1276118466
+      Data3: -881291623
+      Data4: -2055792618
+    Path: event:/Jugador/AlertaVida
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8028266671268924425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,7 +1245,7 @@ GameObject:
   - component: {fileID: 8028266671268924466}
   m_Layer: 0
   m_Name: XR Origin
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1264,7 +1326,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 116
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &8028266671268924467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,14 +1454,14 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 34f2f960fffffc4449ef20be19327a5f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3570c39c655089b4db22e4cdd2481fef, type: 3}
---- !u!4 &7557211137867209713 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3570c39c655089b4db22e4cdd2481fef, type: 3}
-  m_PrefabInstance: {fileID: 8028266669330545690}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7181917395810976075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3570c39c655089b4db22e4cdd2481fef, type: 3}
+  m_PrefabInstance: {fileID: 8028266669330545690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7557211137867209713 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3570c39c655089b4db22e4cdd2481fef, type: 3}
   m_PrefabInstance: {fileID: 8028266669330545690}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8028266671213451039

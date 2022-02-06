@@ -12,7 +12,7 @@ namespace FMODUnity
 
         [Obsolete("Use the EventReference field instead")]
         public string Event = "";
-
+     
         public EmitterGameEvent PlayEvent = EmitterGameEvent.None;
         public EmitterGameEvent StopEvent = EmitterGameEvent.None;
         public bool AllowFadeout = true;
@@ -22,6 +22,7 @@ namespace FMODUnity
         public bool OverrideAttenuation = false;
         public float OverrideMinDistance = -1.0f;
         public float OverrideMaxDistance = -1.0f;
+  
 
         protected FMOD.Studio.EventDescription eventDescription;
 
@@ -59,6 +60,7 @@ namespace FMODUnity
                 return maxDistance;
             }
         }
+       
 
         protected override void Start() 
         {

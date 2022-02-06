@@ -320,14 +320,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8028266671268924425, guid: 6861d0bf4afe1634dbc41ce82808bc4f, type: 3}
-      propertyPath: m_TagString
-      value: GameController
-      objectReference: {fileID: 0}
-    - target: {fileID: 8028266671268924428, guid: 6861d0bf4afe1634dbc41ce82808bc4f, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6861d0bf4afe1634dbc41ce82808bc4f, type: 3}
 --- !u!1 &280479847
@@ -815,11 +807,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630460254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.84, y: 1.54, z: 4.89}
+  m_LocalPosition: {x: 0.51, y: -1.078579, z: 2.4597476}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1631647641}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &630460254
 GameObject:
@@ -863,7 +855,7 @@ MonoBehaviour:
   PlayEvent: 3
   StopEvent: 0
   AllowFadeout: 1
-  TriggerOnce: 0
+  TriggerOnce: 1
   Preload: 0
   Params: []
   OverrideAttenuation: 0
@@ -1772,6 +1764,61 @@ Transform:
   m_Father: {fileID: 555736080}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1502710838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502710839}
+  - component: {fileID: 1502710840}
+  m_Layer: 0
+  m_Name: Ambiente Lab B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1502710839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502710838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.33, y: 0, z: -13.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1631647641}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502710840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502710838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 1824190370
+      Data2: 1260389079
+      Data3: 74448298
+      Data4: 1279465591
+    Path: event:/Ambientes/Lab/Lab AMB A
+  SoundOcclusionWidening: 0.5
+  PlayerOcclusionWidening: 0.8
+  OcclusionLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &1631647640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,6 +1828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1631647641}
+  - component: {fileID: 1631647642}
   m_Layer: 0
   m_Name: Ambiente Lab
   m_TagString: Untagged
@@ -1799,10 +1847,42 @@ Transform:
   m_LocalPosition: {x: -5.865885, y: 2.618579, z: 2.4302523}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 630460253}
   - {fileID: 1654227613}
+  - {fileID: 1502710839}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1631647642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631647640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &1654227612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,11 +1908,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654227612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.51, y: 1.5, z: 2.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1631647641}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1654227614
 MonoBehaviour:
@@ -1843,21 +1923,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1654227612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
-      Data1: 1824190370
-      Data2: 1260389079
-      Data3: 74448298
-      Data4: 1279465591
-    Path: event:/Ambientes/Lab/Lab AMB A
+      Data1: -918765378
+      Data2: 1170238513
+      Data3: 955244703
+      Data4: -132315034
+    Path: event:/Ambientes/Lab/Lab AMB B
   SoundOcclusionWidening: 0.5
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
 --- !u!1 &1793438612
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,17 +2553,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 659563917449922631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
       Data1: 152160623
       Data2: 1319207794
       Data3: 639764138
       Data4: -1488833151
     Path: event:/Objetos/Embases Experimento
-  SoundOcclusionWidening: 0.2
+  SoundOcclusionWidening: 0.1
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2
@@ -3575,17 +3655,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2261099821651747260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
       Data1: 152160623
       Data2: 1319207794
       Data3: 639764138
       Data4: -1488833151
     Path: event:/Objetos/Embases Experimento
-  SoundOcclusionWidening: 0.2
+  SoundOcclusionWidening: 0.1
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2
@@ -4302,17 +4382,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 4134538439812814149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
       Data1: 152160623
       Data2: 1319207794
       Data3: 639764138
       Data4: -1488833151
     Path: event:/Objetos/Embases Experimento
-  SoundOcclusionWidening: 0.2
+  SoundOcclusionWidening: 0.1
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2
@@ -4346,17 +4426,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 4145497297404188492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
       Data1: 152160623
       Data2: 1319207794
       Data3: 639764138
       Data4: -1488833151
     Path: event:/Objetos/Embases Experimento
-  SoundOcclusionWidening: 0.2
+  SoundOcclusionWidening: 0.1
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2
@@ -5347,17 +5427,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 5876990156043703760}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
       Data1: 152160623
       Data2: 1319207794
       Data3: 639764138
       Data4: -1488833151
     Path: event:/Objetos/Embases Experimento
-  SoundOcclusionWidening: 0.2
+  SoundOcclusionWidening: 0.1
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2
@@ -5945,17 +6025,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 6829222439540348868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2167438d27c434bb355c17207a95ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 383033991a413104885e0090e6209753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event:
+  EventReference:
     Guid:
       Data1: 152160623
       Data2: 1319207794
       Data3: 639764138
       Data4: -1488833151
     Path: event:/Objetos/Embases Experimento
-  SoundOcclusionWidening: 0.2
+  SoundOcclusionWidening: 0.1
   PlayerOcclusionWidening: 0.8
   OcclusionLayer:
     serializedVersion: 2

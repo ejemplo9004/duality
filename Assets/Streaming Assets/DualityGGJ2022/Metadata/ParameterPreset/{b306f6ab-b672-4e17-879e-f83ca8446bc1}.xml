@@ -13,7 +13,7 @@
 	</object>
 	<object class="GameParameter" id="{83ad5921-6be4-4e04-893e-735b0a500ed5}">
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="seekSpeed">
 			<value>0.42999997735023499</value>

@@ -9,12 +9,13 @@ public class FirstPersonOcclusion : MonoBehaviour
 {
     [Header("FMOD Event")]
     [SerializeField]
-    
-    public EventReference Event;
+
+
+    public EventReference EventReference;
     [Obsolete("Use the EventReference field instead")]
     private string SelectAudio = "";
-    public EmitterGameEvent PlayEvent = EmitterGameEvent.None;
-    public EmitterGameEvent StopEvent = EmitterGameEvent.None;
+    //copy of emitter
+   
 
     private EventInstance Audio;
     private EventDescription AudioDes;
@@ -38,13 +39,22 @@ public class FirstPersonOcclusion : MonoBehaviour
     private float lineCastHitCount = 0f;
     private Color colour;
 
+    
+
+    protected FMOD.Studio.EventInstance instance;
+
+ 
+
     private void Start()
     {
-        SelectAudio = Event.Path;
+        SelectAudio = EventReference.Path;
         
         Audio = RuntimeManager.CreateInstance(SelectAudio);
         RuntimeManager.AttachInstanceToGameObject(Audio, GetComponent<Transform>(), GetComponent<Rigidbody>());
         Audio.start();
+        
+        
+        
         Audio.release();
 
         AudioDes = RuntimeManager.GetEventDescription(SelectAudio);
@@ -151,12 +161,18 @@ public class FirstPersonOcclusion : MonoBehaviour
         }
             
     }
-
     private void SetParameter()
     {
         Debug.Log("hitocclusion = " + lineCastHitCount);
         if (lineCastHitCount <= 0) lineCastHitCount = 0;
         Audio.setParameterByName("Occlusion", lineCastHitCount / 12);
-        
+
     }
+
+    private void OnDestroy()
+    {
+        Audio.stop(true ? FMOD.Studio.STOP_MODE.ALLOWFADEOUT : FMOD.Studio.STOP_MODE.IMMEDIATE);
+        Audio.release();
+    }
+
 }

@@ -67,7 +67,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0.46
+  Default: 0
   ID:
     data1: 1909524200
     data2: 3952524900
@@ -150,33 +150,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-7912186449751957199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jugador/aire continuo
-  m_EditorClassIdentifier: 
-  Path: event:/Jugador/aire continuo
-  Guid:
-    Data1: 828054997
-    Data2: 1116623738
-    Data3: -849322852
-    Data4: 1191944233
-  Banks:
-  - {fileID: -6815881020529564721}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5994
 --- !u!114 &-7795737657511684782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +208,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 30000
+--- !u!114 &-7693804056803227967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Abre casco/Menu
+  m_EditorClassIdentifier: 
+  Name: Menu
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3659840977
+    data2: 2349515413
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7191400518108805513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,10 +247,10 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Laboratorio.bank
   Name: Laboratorio
   StudioPath: bank:/Laboratorio
-  lastModified: 637797467692160309
+  lastModified: 637797530587965869
   FileSizes:
   - Name: Desktop
-    Value: 13654368
+    Value: 13655424
   Exists: 1
 --- !u!114 &-7137907929948095139
 MonoBehaviour:
@@ -279,33 +276,9 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 130586
---- !u!114 &-6919606195318993029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/abre casco/Menu
-  m_EditorClassIdentifier: 
-  Name: Menu
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3659840977
-    data2: 2349515413
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
+  MinDistance: 3.4
+  MaxDistance: 5.2000003
+  Length: 134586
 --- !u!114 &-6815881020529564721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,10 +294,10 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637797467697551526
+  lastModified: 637797530589896306
   FileSizes:
   - Name: Desktop
-    Value: 6410592
+    Value: 7391808
   Exists: 1
 --- !u!114 &-6592396605481599233
 MonoBehaviour:
@@ -358,6 +331,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 36500
+--- !u!114 &-6367707788599774903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/InicioCasco cerrado/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6299433093522620715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,30 +382,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 18773
---- !u!114 &-6161321269126899412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/abre casco/Vida
-  m_EditorClassIdentifier: 
-  Name: Vida
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 2070753359
-    data2: 2638135278
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-5870848825182018084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,7 +524,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 2228872247
     data2: 883760071
@@ -607,30 +580,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-2605675380371220453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/abre casco/tiemposinrespirar
-  m_EditorClassIdentifier: 
-  Name: tiemposinrespirar
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0.46
-  ID:
-    data1: 1909524200
-    data2: 3952524900
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-2560398494781867569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +606,38 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 120672
+  Length: 124672
+--- !u!114 &-1873453336775543648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/Abre casco
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/Abre casco
+  Guid:
+    Data1: -702160389
+    Data2: 1308875527
+    Data3: 1481033882
+    Data4: 286600743
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7693804056803227967}
+  - {fileID: 6571567319027009230}
+  - {fileID: 5909917666574450582}
+  - {fileID: 9159617220972285050}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22000
 --- !u!114 &-1784091694722500588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +653,7 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Sotano.bank
   Name: Sotano
   StudioPath: bank:/Sotano
-  lastModified: 637797467698381719
+  lastModified: 637797530590276386
   FileSizes:
   - Name: Desktop
     Value: 204736
@@ -781,6 +761,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 16128
+--- !u!114 &-397463718059033280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/AlertaVida
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/AlertaVida
+  Guid:
+    Data1: 1480268168
+    Data2: 1276118466
+    Data3: -881291623
+    Data4: -2055792618
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4267473672111563950}
+  - {fileID: 5886561879087872542}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4632
 --- !u!114 &-346168505292951100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,8 +848,6 @@ MonoBehaviour:
   - {fileID: 6996453589742714553}
   - {fileID: -7795737657511684782}
   - {fileID: 6814993429816522943}
-  - {fileID: -7912186449751957199}
-  - {fileID: 1546423799288865771}
   - {fileID: -346168505292951100}
   - {fileID: -8160981849633695025}
   - {fileID: -6592396605481599233}
@@ -852,6 +859,10 @@ MonoBehaviour:
   - {fileID: 5821913794791403154}
   - {fileID: 7176030452205371291}
   - {fileID: -809734095640836798}
+  - {fileID: 3772654469227513623}
+  - {fileID: -397463718059033280}
+  - {fileID: 6962487905382353015}
+  - {fileID: -1873453336775543648}
   EditorParameters:
   - {fileID: -5870848825182018084}
   - {fileID: 863561058451741865}
@@ -861,7 +872,7 @@ MonoBehaviour:
   - {fileID: -6815881020529564721}
   StringsBanks:
   - {fileID: 6735885112797788077}
-  cacheTime: 637797467699171892
+  cacheTime: 637797530590926536
   cacheVersion: 10
 --- !u!114 &863561058451741865
 MonoBehaviour:
@@ -879,7 +890,7 @@ MonoBehaviour:
   StudioPath: parameter:/tiemposinrespirar
   Min: 0
   Max: 1
-  Default: 0.46
+  Default: 0
   ID:
     data1: 1909524200
     data2: 3952524900
@@ -903,7 +914,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 2228872247
     data2: 883760071
@@ -911,37 +922,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &1546423799288865771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jugador/abre casco
-  m_EditorClassIdentifier: 
-  Path: event:/Jugador/abre casco
-  Guid:
-    Data1: -702160389
-    Data2: 1308875527
-    Data3: 1481033882
-    Data4: 286600743
-  Banks:
-  - {fileID: -6815881020529564721}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -2605675380371220453}
-  - {fileID: 4045401960727901699}
-  - {fileID: -6919606195318993029}
-  - {fileID: -6161321269126899412}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 22000
 --- !u!114 &1751991339481366141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +946,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &3772654469227513623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/InicioCasco cerrado
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/InicioCasco cerrado
+  Guid:
+    Data1: 326696515
+    Data2: 1329044002
+    Data3: 955912611
+    Data4: 1802655139
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6367707788599774903}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &3804844087939080430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,7 +990,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 2228872247
     data2: 883760071
@@ -990,7 +998,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &4045401960727901699
+--- !u!114 &4267473672111563950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1000,18 +1008,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/abre casco/CascoAbierto
+  m_Name: parameter:/AlertaVida/Vida
   m_EditorClassIdentifier: 
-  Name: CascoAbierto
+  Name: Vida
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
-    data1: 3453892325
-    data2: 231404322
+    data1: 2070753359
+    data2: 2638135278
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &5423690178261405734
@@ -1066,6 +1074,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 38263
+--- !u!114 &5886561879087872542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AlertaVida/tiemposinrespirar
+  m_EditorClassIdentifier: 
+  Name: tiemposinrespirar
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1909524200
+    data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5909917666574450582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Abre casco/tiemposinrespirar
+  m_EditorClassIdentifier: 
+  Name: tiemposinrespirar
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1909524200
+    data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6234651701938570767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1134,10 +1190,34 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Sala.bank
   Name: Sala
   StudioPath: bank:/Sala
-  lastModified: 637797467698091651
+  lastModified: 637797530590106351
   FileSizes:
   - Name: Desktop
     Value: 262528
+  Exists: 1
+--- !u!114 &6571567319027009230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Abre casco/CascoAbierto
+  m_EditorClassIdentifier: 
+  Name: CascoAbierto
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3453892325
+    data2: 231404322
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &6675267385244851219
 MonoBehaviour:
@@ -1178,10 +1258,10 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637797467697601533
+  lastModified: 637797530589946315
   FileSizes:
   - Name: Desktop
-    Value: 2370
+    Value: 2460
   Exists: 1
 --- !u!114 &6763639234210559124
 MonoBehaviour:
@@ -1241,6 +1321,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 36500
+--- !u!114 &6962487905382353015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador/Aire continuo
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador/Aire continuo
+  Guid:
+    Data1: 828054997
+    Data2: 1116623738
+    Data3: -849322852
+    Data4: 1191944233
+  Banks:
+  - {fileID: -6815881020529564721}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5994
 --- !u!114 &6996453589742714553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,7 +1390,7 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Menu.bank
   Name: Menu
   StudioPath: bank:/Menu
-  lastModified: 637797467699171892
+  lastModified: 637797530590926536
   FileSizes:
   - Name: Desktop
     Value: 2749472
@@ -1355,7 +1462,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0.46
+  Default: 0
   ID:
     data1: 1909524200
     data2: 3952524900
@@ -1379,10 +1486,34 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 0.46
+  Default: 0
   ID:
     data1: 1909524200
     data2: 3952524900
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9159617220972285050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Abre casco/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
   Type: 0
   IsGlobal: 1
   Labels: []
