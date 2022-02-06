@@ -71,7 +71,7 @@
 			<destination>{2b03ded5-464a-4443-b561-25b61bdbb032}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{21bc5a22-e5a4-4004-be39-65f9e47fece3}</destination>
+			<destination>{b77d5268-ee3a-47b2-ad94-7b6638f874b7}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0753d06d-a747-4c83-960d-b9b9a8ece587}" />
@@ -329,7 +329,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="commandTarget">
-			<destination>{3030af97-9976-4cb7-9615-98893e5a3151}</destination>
+			<destination>{8fd48210-f8a8-46f1-91af-9ff8cd0e4942}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f9c7661f-9e03-4e71-9129-ae26897b520f}">

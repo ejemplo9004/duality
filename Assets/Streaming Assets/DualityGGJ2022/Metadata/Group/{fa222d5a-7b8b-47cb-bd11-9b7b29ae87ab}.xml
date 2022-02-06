@@ -54,7 +54,7 @@
 	</object>
 	<object class="MixerSend" id="{a99338f1-75a6-4419-b3ca-ffaff04b8239}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="automators">
 			<destination>{bd3047d6-2dc7-4869-8b0a-32369a426d90}</destination>

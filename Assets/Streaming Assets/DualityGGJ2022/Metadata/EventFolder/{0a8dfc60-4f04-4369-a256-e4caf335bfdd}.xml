@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{0a8dfc60-4f04-4369-a256-e4caf335bfdd}">
+		<property name="name">
+			<value>Sotano</value>
+		</property>
+		<relationship name="folder">
+			<destination>{16feaee0-2341-45fe-99fd-fd488fb2e343}</destination>
+		</relationship>
+	</object>
+</objects>

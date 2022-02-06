@@ -206,8 +206,8 @@ MonoBehaviour:
       Data4: 1362188862
     Path: event:/Musica/Musica
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  PlayEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
