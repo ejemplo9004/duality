@@ -52,6 +52,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: -6242147834346977333}
+  - {fileID: 7265566823249533877}
   MinDistance: 1
   MaxDistance: 20
   Length: 3000
@@ -77,6 +78,30 @@ MonoBehaviour:
     data2: 231404322
   Type: 0
   IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8041618595484708984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/abre casco/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-7976902214706548652
@@ -202,7 +227,7 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Laboratorio.bank
   Name: Laboratorio
   StudioPath: bank:/Laboratorio
-  lastModified: 637795292670556770
+  lastModified: 637796877798004165
   FileSizes:
   - Name: Desktop
     Value: 6514944
@@ -222,10 +247,10 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637795292672477200
+  lastModified: 637796877801464942
   FileSizes:
   - Name: Desktop
-    Value: 6398976
+    Value: 6401312
   Exists: 1
 --- !u!114 &-6242147834346977333
 MonoBehaviour:
@@ -473,7 +498,7 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Sotano.bank
   Name: Sotano
   StudioPath: bank:/Sotano
-  lastModified: 637795292673062382
+  lastModified: 637796877802315134
   FileSizes:
   - Name: Desktop
     Value: 204736
@@ -535,7 +560,7 @@ MonoBehaviour:
   - {fileID: -8763312778683382627}
   MinDistance: 1
   MaxDistance: 20
-  Length: 36000
+  Length: 37067
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,7 +603,7 @@ MonoBehaviour:
   - {fileID: -6815881020529564721}
   StringsBanks:
   - {fileID: 6735885112797788077}
-  cacheTime: 637795292673062382
+  cacheTime: 637796877802315134
   cacheVersion: 10
 --- !u!114 &863561058451741865
 MonoBehaviour:
@@ -654,6 +679,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: -2605675380371220453}
   - {fileID: 4045401960727901699}
+  - {fileID: -8041618595484708984}
   MinDistance: 1
   MaxDistance: 20
   Length: 22000
@@ -771,7 +797,7 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Sala.bank
   Name: Sala
   StudioPath: bank:/Sala
-  lastModified: 637795292672872351
+  lastModified: 637796877801845034
   FileSizes:
   - Name: Desktop
     Value: 262528
@@ -815,7 +841,7 @@ MonoBehaviour:
   Path: Assets/Streaming Assets/DualityGGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637795292672522354
+  lastModified: 637796877801504948
   FileSizes:
   - Name: Desktop
     Value: 2030
@@ -875,6 +901,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 312
+--- !u!114 &7265566823249533877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Luces/Vida
+  m_EditorClassIdentifier: 
+  Name: Vida
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2070753359
+    data2: 2638135278
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7890060309143245339
 MonoBehaviour:
   m_ObjectHideFlags: 0
