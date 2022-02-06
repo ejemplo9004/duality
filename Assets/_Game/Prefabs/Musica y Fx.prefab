@@ -64,7 +64,7 @@ MonoBehaviour:
       Data2: 1260935492
       Data3: 96328101
       Data4: -825830981
-    Path: event:/Ambientes/entrada sala
+    Path: event:/Ambientes/Sala/entrada sala
   Event: 
   PlayEvent: 3
   StopEvent: 0

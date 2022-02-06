@@ -293,7 +293,7 @@ MonoBehaviour:
       Data2: 1164983929
       Data3: 1915849383
       Data4: 2138019898
-    Path: event:/Ambientes/Ambiente Menu A
+    Path: event:/Ambientes/Menu/Ambiente Menu A
   Event: 
   PlayEvent: 1
   StopEvent: 2
